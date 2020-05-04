@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Welcome to Cave World",
+            "color": "gray"
+        },
+        "description": {
+            "text": "Welcome to the cave world"
+        },
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:plains",
+                "dimension": "overworld"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "plains"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "caveworld:starter"
+        ]
+    }
+}
